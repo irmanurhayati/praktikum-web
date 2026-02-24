@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <h1>Form Kehadiran Praktikum</h1>
+    </header>
+
+      <form action="#">
+        <label>Nama: </label><br>
+        <input type="text" placeholder="Nama lengkap"><br><br>
+
+        <label>NPM: </label><br>
+        <input type="password" placeholder="NPM"><br><br>
+
+        <label>Number</label><br>
+        <input type="number"><br><br>
+         <label>Nama: </label><br>
+
+       
+        <select name="kelas" id="kelas">
+        <option value="pilih kleas">pilih kelas</option><br>
+    </select>
+
+
+        <form action="#" method="post" target="_blank">
+      <label for="name">Tanggal:  <input type="date" /><br />
+
+        <form action="#" method="post" target="_blank">
+      <label for="name">Waktu:  <input type="Time" /><br />
+      
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+
+</body>
+</html>
