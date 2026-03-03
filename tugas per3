@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Form Kehadiran Praktikan</h1>
-    </header>
+    <div class="card"><h1>Form Kehadiran Praktikan</h1></div>
     <form action="#" method="post" target="_blank">
         <label for="name">Nama: </label>
         <input type="text" id="name" name="name" placeholder="Masukkan nama"><br>
