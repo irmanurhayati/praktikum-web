@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form kehadiran</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card"><h1>Form Kehadiran Praktikan</h1></div>
-    <form action="#" method="post" target="_blank">
-        <label for="name">Nama: </label>
-        <input type="text" id="name" name="name" placeholder="Masukkan nama"><br>
-        <br>
-        <label for="npm">NPM: </label>
-        <input type="number" name="number" id="number" placeholder="Masukkan NPM"><br>
-        <br>
-        <label for="Kelas">Kelas: </label>
-        <select name="kelas" id="kelas">
-            <option value="">Pilih Kelas</option>
-            <option value="Ilmu Komputer">Ilmu Komputer</option>
-            <option value="Sistem Informasi">Sistem Informasi</option>
-        </select><br>
-        <br>
-        <label for="Tanggal">Tanggal: </label>
-        <input type="date"><br>
-        <br>
-        <label for="Waktu">Waktu: </label>
-        <input type="time"><br>
-        <br>
-        <input type="submit" value="submit">
+    <header id="main-header">   
+    <header>
+    <div class="container">
+    <form action="#">
+        <h1>Form Kehadiran Mahasiswa</h1>
+            <label for="nama">Nama:</label>
+            <input type="text" placeholder="Masukkan nama">
+            <br>
+            <br>
+            <label for="NPM">NPM:</label>
+            <input type="number" placeholder="Masukkan NPM">
+            <br>
+            <br>
+            <label for="kelas">Kelas:</label>
+            <select>
+                <option value="Pilih kelas">Pilih kelas</option>
+                <option value="SI">Sistem Informasi</option>
+                <option value="Ilkom">Ilmu Komputer</option>
+                <option value="MI">Manajemen Informatika</option>
+            </select>
+            <br>
+            <br>
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" placeholder="tanggal">
+            <br>
+            <br>
+            <label for="waktu">Waktu:</label>
+            <input type="time" placeholder="waktu">
+            <br>
+            <br>
+            <button id="button-submit" type="submit">Submit</button>
+            <br>
+    </form>
+    </div>
 </body>
 </html>
