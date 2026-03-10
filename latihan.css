@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #fffecb; /* kuning pucat */
+}
+
+/* CENTER LAYAR */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.card {
+    background-color: #ffffff;
+    width: 360px;
+    padding: 30px 28px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* LOGO */
+.logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* TEKS */
+h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.subtitle {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* FORM */
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* OPTIONS */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+.forgot {
+    text-decoration: none;
+    color: #666;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222;
+}
