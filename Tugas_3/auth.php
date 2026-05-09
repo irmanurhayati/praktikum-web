@@ -3,7 +3,7 @@ session_start();
 
 include 'koneksi.php';
 
-// REGISTER
+
 if (isset($_POST['register'])) {
 
     $nama = $_POST['nama'];
@@ -22,7 +22,7 @@ if (isset($_POST['register'])) {
     echo "Register berhasil";
 }
 
-// LOGIN
+
 if (isset($_POST['login'])) {
 
     $nama = $_POST['nama'];
