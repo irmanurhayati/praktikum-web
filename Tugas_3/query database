@@ -1,0 +1,9 @@
+CREATE DATABASE pemweb;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    password VARCHAR(255)
+);
+
+//register terlebih dahulu baru bisa login ex : admin - admin123 dan aya - 123
