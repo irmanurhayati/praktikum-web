@@ -3,7 +3,7 @@ session_start();
 
 include 'koneksi.php';
 
-// PROTEKSI
+
 if (!isset($_SESSION['nama'])) {
 
     header("Location: dashboard.php");
@@ -34,7 +34,7 @@ if (!$data) {
     header("Location: dashboard.php");
 }
 
-// UPDATE
+
 if (isset($_POST['update'])) {
 
     $nama = $_POST['nama'];
