@@ -3,13 +3,13 @@ session_start();
 
 include 'koneksi.php';
 
-// PROTEKSI LOGIN
+
 if (!isset($_SESSION['nama'])) {
 
     header("Location: auth.php");
 }
 
-// HAPUS USER
+
 if (
     isset($_GET['hapus']) &&
     $_SESSION['nama'] == 'admin'
